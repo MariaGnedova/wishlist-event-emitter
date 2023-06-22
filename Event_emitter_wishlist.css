@@ -1,0 +1,230 @@
+body {
+    background-color: rgb rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    line-height: 40px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+ 
+}
+
+h2 {
+    color: #202020;
+    font-family: 'Source Code Pro';
+
+    /* position: absolute;
+    width: 101px;
+    height: 30px;
+    left: 17px;
+    top: 47px;
+    font-family: 'Source Code Pro';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px; */
+
+    /* background-color: #a51313; */
+}
+
+a {
+    color: #202020;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.project-name {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.anchor_icon {
+  width: 24px;
+  padding-left: 30px;
+}
+
+.todoblock {
+  display: flex;
+  flex-direction: row;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.relevance-colo {
+  width: 30px;
+}
+
+.important-information {
+  width: 100%;
+}
+
+.position-info {
+  list-style-image: relative;
+  bottom: 3px;
+  right: 3px;
+  text-align: right;
+  float: right;
+}
+
+.timepassed-dot {
+    height: 15px;
+    width: 15px;
+    background-color: #808080;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .timepassed-dot.hot {
+    background-color: #DB2228;
+  }
+  .timepassed-dot.warm {
+    background-color: #FA5E26;
+  }
+  .timepassed-dot.comfort {
+    background-color: #FDAF19;
+  }
+  .timepassed-dot.breezy {
+    background-color: #117722;
+  }
+  .timepassed-dot.cold {
+    background-color: #808080;
+  }
+
+  .time-box {
+    color: #393838;
+    font-weight: 400;
+    font-size: 11px;
+  }
+
+  .teg_box {
+        background-color: #808080;
+        border-radius: 2px;
+        padding: 2px 2px 3px 2px;
+        font-size: 10px;
+        line-height: 12px;
+        color: #FFFFFF;
+    }
+    .teg_box.burgundy {
+      background-color: #92201A;
+    }
+    .teg_box.hot {
+      background-color: #DB2228;
+    }
+    .teg_box.warm {
+      background-color: #FA5E26;
+    }
+    .teg_box.comfort {
+      background-color: #FDAF19;
+    }
+    .teg_box.olive { 
+      background-color: rgb(175, 184, 59);
+    }
+    .teg_box.lime{
+      background-color: rgb(126, 204, 73);
+    }
+    .teg_box.breezy {
+      background-color: #117722;
+    }
+    .teg_box.mint {
+    background-color: rgb(106, 204, 188);
+    }
+    .teg_box.blue_green {
+      background-color: #1E7F92 ;
+    }
+    .teg_box.sky_blue {               
+      background-color: #31A8FF;
+    }
+    .teg_box.light_blue {               
+      background-color: #ABCCEB;
+    }  
+    .teg_box.blue {               
+      background-color: #135FAB;
+    }
+    .teg_box.fuchsia {               
+      background-color: #BA46A7;
+    }
+    .teg_box.violet {               
+      background-color: #603069;
+    }
+    .teg_box.lavender {               
+      background-color: #C981BD;
+    }
+    .teg_box.coral {               
+      background-color: #E53F48;
+    } 
+    .teg_box.peach {               
+      background-color: #FF7262;
+    }
+    .teg_box.cold {
+      background-color: #808080;
+    }
+    .teg_box.black {
+      background-color: #1D1E20;
+    }
+    .teg_box.White {
+      background-color: #FFFFFF;
+      border: 0.5px solid #393838;
+      color: #202020;
+    }
+    .teg_box.sandstone {
+      background-color: #C78D5B;
+    }
+
+    .priority_box {
+      background-color: #FFFFFF;
+      border-radius: 2px;
+      padding: 2px 2px 3px 2px;
+      font-size: 10px;
+      line-height: 12px;
+      /* border: 0.5px solid #393838; */
+      color: #ffffff;
+  }
+
+  .priority_box.P1 {
+    background-color: #DB2228;
+  }
+
+  .priority_box.P2 {
+    background-color: #FA5E26;
+  }
+
+  .priority_box.P3 {
+    background-color: #FDAF19;
+  }
+
+  .priority_box.P4 {
+    background-color: #31A8FF;
+  }
+
+  .priority_box.P5 {
+    background-color: #FFFFFF;
+    border: 0.5px solid #393838;
+    color: #202020;
+  }
+
+  /* .top-site-outer .top-site-outer:is(.active, :focus, :hover);
+  background: var(--newtab-element-hover-color); */
+
+  .task:hover
+  /* :is(.active, :focus, :hover)  */
+  {
+    background-color: var(--main-bg-color);
+  }
+
+  /* color-mix(in srgb, var(--newtab-background-color) 90%, #000) */
+
+  :root {
+    --main-bg-color: rgba(0, 0, 0, 0.1);
+  }
+
+
+
+
+
